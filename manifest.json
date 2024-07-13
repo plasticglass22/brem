@@ -1,0 +1,18 @@
+{
+    "manifest_version" : 2,
+    "name" : "brem",
+    "version" : "1.0",
+
+    "description" : "Highlights all strings on a page matching a provided regular expression.",
+
+    "icons" : {
+        "48" : "icons/tempicon_48.jpg"
+    },
+
+    "content_scripts" : [
+        {
+            "matches" : ["<all_urls>"],
+            "js" : ["brem.js"]
+        }
+    ]
+}
