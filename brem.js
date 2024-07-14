@@ -1,7 +1,10 @@
-document.body.style.border = "5px solid red";
-console.log("butts lmao");
+function listen() {
+    // document.addEventListener("click", (e) => {
+    //     let regexIn = document.getElementById("regex");
+    //     let regexstr = regexIn.value;
+    //     alert(regexstr);
+    // })
 
-function highlight(text) {
-    
-    
+    console.log("TEST");
 }
+

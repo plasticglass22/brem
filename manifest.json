@@ -5,14 +5,23 @@
 
     "description" : "Highlights all strings on a page matching a provided regular expression.",
 
+    "permissions" : ["activeTab"],
+
+    "browser_action" : {
+        "default_icon" : "icons/pg_icon32.png",
+        "default_title" : "brem",
+        "default_popup" : "popup/brem.html"
+    },
+
     "icons" : {
-        "48" : "icons/tempicon_48.jpg"
+        "48" : "icons/pg_icon48.png"
     },
 
     "content_scripts" : [
         {
-            "matches" : ["<all_urls>"],
+            "matches" : ["*://*.example.com/*"],
             "js" : ["brem.js"]
         }
     ]
+
 }

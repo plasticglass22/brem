@@ -1,0 +1,23 @@
+html,
+body {
+    width : 350px;
+    background-color: #222222;
+}
+
+.hidden {
+    display : none;
+}
+
+#regex {
+    width : 95%;
+    padding : 3px;
+}
+
+#submit {
+    width : 75px;
+    padding : 3px;
+}
+
+#error-content {
+    text-decoration: red;
+}
